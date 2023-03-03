@@ -60,4 +60,8 @@ function getValue(item) {
 
 
 
-module.exports = parse
+module.exports = {
+    parseRaw: parse_raw,
+    parse,
+    getTableConstructorValue,
+};
